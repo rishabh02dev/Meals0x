@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btn-primary {
+    background-color: #1d3557;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #457b9d;
+    transform: scale(1.05);
+    color: #fff;
+  }
+  
+  .card-title {
+    color: #e63946;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #e63946;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #f1a1a8;
+  }
+
+
+  .card-img-top {
+    height: 200px; /* Controls the image size */
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
